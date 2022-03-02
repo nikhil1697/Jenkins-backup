@@ -1,0 +1,23 @@
+Started by user [8mha:////4HZB5Nin2kQ/jV6m3nR/+sg6tWOVWhQ7wQuJJikaett8AAAAnB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyuEgYB/dLi1CL9vMzsjMwcQzNLcwBNcvf1xQAAAA==[0mNikhil A M
+Running as SYSTEM
+Building remotely on [8mha:////4Aks+yhgNSq29x6TAsuivy2ivm7M/TLRloILCex7GAREAAAAmh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZ+/eT83ILSktQi/TygO40BLFLuqcQAAAA=[0mnode3 in workspace /home/ubuntu/workspace/C-program
+The recommended git tool is: NONE
+No credentials specified
+ > git rev-parse --resolve-git-dir /home/ubuntu/workspace/C-program/.git # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/nikhil1697/repository1.git # timeout=10
+Fetching upstream changes from https://github.com/nikhil1697/repository1.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.25.1'
+ > git fetch --tags --force --progress -- https://github.com/nikhil1697/repository1.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+Checking out Revision d54624275b35460af0f10883531312b3c30e0b6d (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f d54624275b35460af0f10883531312b3c30e0b6d # timeout=10
+Commit message: "Create file10"
+ > git rev-list --no-walk d54624275b35460af0f10883531312b3c30e0b6d # timeout=10
+[C-program] $ /bin/sh -xe /tmp/jenkins4847344909099694721.sh
++ cd /home/ubuntu/workspace/C-program
++ make
+make: 'execute.exe' is up to date.
+Finished: SUCCESS

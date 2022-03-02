@@ -1,0 +1,15 @@
+Started by upstream project "[8mha:////4Fa1W9hwosCnJ7koTTPB3E2IoWxZdbGNb7d8AR8fgYOOAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/az8JH2n0sycFH0Ahtvdn8AAAAA=[0mBuild" build number [8mha:////4DHKWt6op5FP2mlU3sVvGnj3ApSmyXjydqQk73iKHym+AAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLQIwSBh79rPwkfafSzJwUfUsAlNYBIMEAAAA=[0m9
+originally caused by:
+ Started by GitHub push by nikhil1697
+Running as SYSTEM
+Building on master in workspace /var/lib/jenkins/workspace/Deploy
+[Deploy] $ /bin/sh -xe /tmp/jenkins6526199392945354415.sh
++ cd /var/lib/jenkins/workspace/Build/target
++ cp hello-world-war-1.0.0.war /var/lib/jenkins/workspace/Deploy
+[DeployPublisher][INFO] Attempting to deploy 1 war file(s)
+[DeployPublisher][INFO] Deploying /var/lib/jenkins/workspace/Deploy/hello-world-war-1.0.0.war to container Tomcat 7.x Remote with context null
+  Redeploying [/var/lib/jenkins/workspace/Deploy/hello-world-war-1.0.0.war]
+  Undeploying [/var/lib/jenkins/workspace/Deploy/hello-world-war-1.0.0.war]
+  Deploying [/var/lib/jenkins/workspace/Deploy/hello-world-war-1.0.0.war]
+Triggering a new build of [8mha:////4MPVfmP/hvTDcFBHvv3W0e27J0a7i8RYRwU6qq1VdbcKAAAAlh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyWEgYu/az8JP2Q1OISfQCjfsn8vwAAAA==[0mTest
+Finished: SUCCESS

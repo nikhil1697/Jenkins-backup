@@ -1,0 +1,17 @@
+Started on Feb 28, 2022 9:16:08 AM
+Started by event from 140.82.115.83 ⇒ http://54.145.132.3:8080/github-webhook/ on Mon Feb 28 09:16:07 UTC 2022
+Using strategy: Default
+[poll] Last Built Revision: Revision c6b43d707a2fb4587816725f040c2fe923b072d0 (refs/remotes/origin/master)
+The recommended git tool is: NONE
+using credential f8527257-8827-46e0-90c4-77431f6ef19d
+ > git --version # timeout=10
+ > git --version # 'git version 2.27.0'
+using GIT_SSH to set credentials 
+[INFO] Currently running in a labeled security context
+[INFO] Currently SELinux is 'enforcing' on the host
+ > /usr/bin/chcon --type=ssh_home_t /tmp/jenkins-gitclient-ssh8382272684642470038.key
+ > git ls-remote -h -- https://github.com/nikhil1697/Java-repo.git # timeout=10
+Found 1 remote heads on https://github.com/nikhil1697/Java-repo.git
+[poll] Latest remote head revision on refs/heads/master is: 6d8672f19e9b4fbbb87518e08b388d3dc9923102
+Done. Took 0.38 sec
+Changes found

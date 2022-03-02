@@ -1,0 +1,28 @@
+Started by user [8mha:////4HZB5Nin2kQ/jV6m3nR/+sg6tWOVWhQ7wQuJJikaett8AAAAnB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyuEgYB/dLi1CL9vMzsjMwcQzNLcwBNcvf1xQAAAA==[0mNikhil A M
+Running as SYSTEM
+Building on master in workspace /var/lib/jenkins/workspace/Build
+The recommended git tool is: NONE
+using credential f8527257-8827-46e0-90c4-77431f6ef19d
+ > git rev-parse --resolve-git-dir /var/lib/jenkins/workspace/Build/.git # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/nikhil1697/Java-repo.git # timeout=10
+Fetching upstream changes from https://github.com/nikhil1697/Java-repo.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.27.0'
+using GIT_SSH to set credentials 
+[INFO] Currently running in a labeled security context
+[INFO] Currently SELinux is 'enforcing' on the host
+ > /usr/bin/chcon --type=ssh_home_t /var/lib/jenkins/workspace/Build@tmp/jenkins-gitclient-ssh5675267467098957312.key
+ > git fetch --tags --force --progress -- https://github.com/nikhil1697/Java-repo.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+Checking out Revision f4f4398bae8d4522f72b004eb28182b0dc7d2a7c (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f f4f4398bae8d4522f72b004eb28182b0dc7d2a7c # timeout=10
+Commit message: "files"
+ > git rev-list --no-walk f4f4398bae8d4522f72b004eb28182b0dc7d2a7c # timeout=10
+[Build] $ mvn clean install
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] --------------------< com.efsavage:hello-world-war >--------------------
+[INFO] Building Hello World Web Application Repository 1.0.0
+[INFO] --------------------------------[ war ]---------------------------------

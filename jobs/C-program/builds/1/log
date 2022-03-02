@@ -1,0 +1,26 @@
+Started by user [8mha:////4HZB5Nin2kQ/jV6m3nR/+sg6tWOVWhQ7wQuJJikaett8AAAAnB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyuEgYB/dLi1CL9vMzsjMwcQzNLcwBNcvf1xQAAAA==[0mNikhil A M
+Running as SYSTEM
+Building in workspace /var/lib/jenkins/workspace/C-program
+The recommended git tool is: NONE
+No credentials specified
+Cloning the remote Git repository
+Cloning repository https://github.com/nikhil1697/repository1.git
+ > git init /var/lib/jenkins/workspace/C-program # timeout=10
+Fetching upstream changes from https://github.com/nikhil1697/repository1.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.27.0'
+ > git fetch --tags --force --progress -- https://github.com/nikhil1697/repository1.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git config remote.origin.url https://github.com/nikhil1697/repository1.git # timeout=10
+ > git config --add remote.origin.fetch +refs/heads/*:refs/remotes/origin/* # timeout=10
+Avoid second fetch
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+Checking out Revision 4fef60d0d6773865a5ecbca310c558cb9348f006 (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 4fef60d0d6773865a5ecbca310c558cb9348f006 # timeout=10
+Commit message: "files added"
+First time build. Skipping changelog.
+[C-program] $ /bin/sh -xe /tmp/jenkins132071132729241481.sh
++ cd /home/ec2-user/workspace/repository1
+/tmp/jenkins132071132729241481.sh: line 2: cd: /home/ec2-user/workspace/repository1: Not a directory
+Build step 'Execute shell' marked build as failure
+Finished: FAILURE

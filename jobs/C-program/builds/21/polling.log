@@ -1,0 +1,17 @@
+Started on Feb 28, 2022 7:39:22 AM
+Started by event from 140.82.115.109 ⇒ http://54.145.132.3:8080/github-webhook/ on Mon Feb 28 07:39:21 UTC 2022
+Using strategy: Default
+[poll] Last Built Revision: Revision 75e21379a462505a8b764ddaaefde50916b73a0d (refs/remotes/origin/main)
+The recommended git tool is: NONE
+using credential f8527257-8827-46e0-90c4-77431f6ef19d
+ > git --version # timeout=10
+ > git --version # 'git version 2.27.0'
+using GIT_SSH to set credentials 
+[INFO] Currently running in a labeled security context
+[INFO] Currently SELinux is 'enforcing' on the host
+ > /usr/bin/chcon --type=ssh_home_t /tmp/jenkins-gitclient-ssh8702124369981304998.key
+ > git ls-remote -h -- https://github.com/nikhil1697/c_repository.git # timeout=10
+Found 1 remote heads on https://github.com/nikhil1697/c_repository.git
+[poll] Latest remote head revision on refs/heads/main is: c70ee1c0558f9dc6ad4a1fa2ec8a996e4daf859e
+Done. Took 0.16 sec
+Changes found

@@ -1,0 +1,27 @@
+Started by GitHub push by nikhil1697
+Running as SYSTEM
+Building on master in workspace /var/lib/jenkins/workspace/C-program
+The recommended git tool is: NONE
+using credential f8527257-8827-46e0-90c4-77431f6ef19d
+ > git rev-parse --resolve-git-dir /var/lib/jenkins/workspace/C-program/.git # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/nikhil1697/c_repository.git # timeout=10
+Fetching upstream changes from https://github.com/nikhil1697/c_repository.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.27.0'
+using GIT_SSH to set credentials 
+[INFO] Currently running in a labeled security context
+[INFO] Currently SELinux is 'enforcing' on the host
+ > /usr/bin/chcon --type=ssh_home_t /var/lib/jenkins/workspace/C-program@tmp/jenkins-gitclient-ssh7248022756514759832.key
+ > git fetch --tags --force --progress -- https://github.com/nikhil1697/c_repository.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/main^{commit} # timeout=10
+Checking out Revision 00f975ea620642c37eed3519bdf4f0eb59e1d07a (refs/remotes/origin/main)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 00f975ea620642c37eed3519bdf4f0eb59e1d07a # timeout=10
+Commit message: "Create file10"
+ > git rev-list --no-walk c70ee1c0558f9dc6ad4a1fa2ec8a996e4daf859e # timeout=10
+[C-program] $ /bin/sh -xe /tmp/jenkins8100399480617942974.sh
++ cd /var/lib/jenkins/workspace/C-program
++ make
+make: 'ABC.exe' is up to date.
+Finished: SUCCESS
